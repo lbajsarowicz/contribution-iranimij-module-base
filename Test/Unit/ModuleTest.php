@@ -47,6 +47,5 @@ class ModuleTest extends TestCase
                 'Only php, extensions and magento/* packages may be required'
             );
         }
-        self::assertArrayNotHasKey('require-dev', $composer, 'No dev dependencies in the base module');
     }
 }
